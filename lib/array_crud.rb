@@ -13,17 +13,17 @@ end
 
 def add_element_to_start_of_array(array, element)
   colors = ["blue", "green", "red", "yellow"]
-    colors .unshift "arrays!"
+    colors.unshift "arrays!"
 end
 
 def remove_element_from_end_of_array(array)
   colors = ["blue", "green", "red", "yellow"]
-    colors .pop "arrays!"
+    colors.pop "arrays!"
 end
 
 def remove_element_from_start_of_array(array)
   colors = ["blue", "green", "red", "yellow"]
-    colors .shift "arrays!"
+    colors.shift "arrays!"
 end
 
 def retrieve_element_from_index(array, index_number)
