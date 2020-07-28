@@ -29,6 +29,7 @@ end
 def retrieve_element_from_index(array, index_number)
   colors = ["am", "green", "red", "arrays!"]
     colors.index(am)
+    return am
 end
 
 def retrieve_first_element_from_array(array)
